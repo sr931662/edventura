@@ -1,0 +1,9 @@
+{
+  "typeCheckingMode": "basic",
+  "reportGeneralTypeIssues": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportArgumentType": "none",
+  "reportReturnType": "none",
+  "reportCallIssue": "none",
+  "reportOptionalOperand": "none"
+}

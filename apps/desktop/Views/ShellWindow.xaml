@@ -1,0 +1,294 @@
+<Window x:Class="edventura_desktop.Views.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:daisy="clr-namespace:edventura_desktop.Views.Daisy"
+        Title="EdVentura OS" Height="768" Width="1366"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+
+    <Window.Resources>
+        <!-- ── Nav button ───────────────────────────────────────────────── -->
+        <Style TargetType="Button" x:Key="NavButton">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#94A3B8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="18,13"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="10,3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="NavBorder" CornerRadius="10"
+                                Background="{TemplateBinding Background}"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="NavBorder" Property="Background" Value="#22FFFFFF"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ── Ask Daisy button — glowing accent style ──────────────────── -->
+        <Style TargetType="Button" x:Key="DaisyButton">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="16,12"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Margin" Value="10,4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="DaisyBd" CornerRadius="12"
+                                Padding="{TemplateBinding Padding}">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                    <GradientStop Color="{DynamicResource AccentSecondaryColor}" Offset="0"/>
+                                    <GradientStop Color="{DynamicResource AccentPrimaryColor}"   Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="14" ShadowDepth="0" Opacity="0.35"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="DaisyBd" Property="Opacity" Value="0.85"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <!-- Outer rounded border -->
+    <Border CornerRadius="12" Background="#F1F5F9" ClipToBounds="True">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- ── Title bar ─────────────────────────────────────────────── -->
+            <Grid Grid.Row="0" Background="White"
+                  MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Panel.ZIndex="10">
+                <Grid.Effect>
+                    <DropShadowEffect BlurRadius="6" ShadowDepth="1" Opacity="0.05" Direction="270"/>
+                </Grid.Effect>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center"
+                            Margin="18,0,0,0" IsHitTestVisible="False">
+                    <TextBlock Text="EdVentura OS" Foreground="#64748B"
+                               FontWeight="SemiBold" FontSize="13"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="—" Width="45" Height="35" Background="Transparent"
+                            BorderThickness="0" Foreground="#64748B" Cursor="Hand"
+                            Click="Minimize_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#1A000000"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button Content="☐" Width="45" Height="35" Background="Transparent"
+                            BorderThickness="0" Foreground="#64748B" Cursor="Hand"
+                            Click="Maximize_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#1A000000"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button Content="✕" Width="45" Height="35" Background="Transparent"
+                            BorderThickness="0" Foreground="#64748B" Cursor="Hand"
+                            Click="Close_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#E81123"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- ── Main layout ───────────────────────────────────────────── -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="256"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- ── Sidebar (DynamicResource so ThemeService can swap colors) ── -->
+                <Border Grid.Column="0" Background="{DynamicResource SidebarGradient}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <!-- User header  -->
+                            <RowDefinition Height="*"/>
+                            <!-- Nav menu     -->
+                            <RowDefinition Height="Auto"/>
+                            <!-- Ask Daisy + Logout -->
+                        </Grid.RowDefinitions>
+
+                        <!-- User profile header -->
+                        <StackPanel Grid.Row="0" Margin="20,36,20,28">
+                            <Grid Width="72" Height="72" HorizontalAlignment="Center" Margin="0,0,0,14">
+                                <Ellipse Width="72" Height="72">
+                                    <Ellipse.Fill>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                            <GradientStop Color="{DynamicResource AccentSecondaryColor}" Offset="0"/>
+                                            <GradientStop Color="{DynamicResource AccentPrimaryColor}"   Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <Ellipse Width="64" Height="64" Fill="#1AFFFFFF"/>
+                                <Image Source="pack://application:,,,/Assets/Logo/ic_launcher.png"
+                                       Height="38" Stretch="Uniform" Opacity="0.85"/>
+                            </Grid>
+                            <TextBlock Text="{Binding UserName}" FontSize="17"
+                                       FontWeight="Bold" Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       TextTrimming="CharacterEllipsis"/>
+                            <Border CornerRadius="12" Padding="10,3" Margin="0,6,0,0"
+                                    HorizontalAlignment="Center" Background="#22FFFFFF">
+                                <TextBlock Text="{Binding UserRole}" FontSize="12"
+                                           FontWeight="SemiBold"
+                                           Foreground="{DynamicResource AccentPrimary}"
+                                           HorizontalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+
+                        <!-- Navigation -->
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Hidden">
+                            <ItemsControl ItemsSource="{Binding MenuItems}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Button Style="{StaticResource NavButton}"
+                                                Command="{Binding DataContext.NavigateCommand,
+                                                          RelativeSource={RelativeSource AncestorType=Window}}"
+                                                CommandParameter="{Binding PageType}">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding Icon}" FontSize="17"
+                                                           Margin="0,0,12,0" VerticalAlignment="Center"/>
+                                                <TextBlock Text="{Binding Title}" VerticalAlignment="Center"/>
+                                            </StackPanel>
+                                        </Button>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+
+                        <!-- ── Bottom section: Ask Daisy + Logout ──────── -->
+                        <StackPanel Grid.Row="2" Margin="0,8,0,24">
+
+                            <!-- Separator line -->
+                            <Rectangle Height="1" Margin="16,0,16,10" Fill="#22FFFFFF"/>
+
+                            <!-- ✨ Ask Daisy button -->
+                            <Button Style="{StaticResource DaisyButton}"
+                                    Click="AskDaisy_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="🌼" FontSize="18" Margin="0,0,10,0"
+                                               VerticalAlignment="Center"/>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <TextBlock Text="Ask Daisy" Foreground="White"
+                                                   FontSize="14" FontWeight="Bold"/>
+                                        <TextBlock Text="AI Assistant" Foreground="#CCffffff"
+                                                   FontSize="10"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Button>
+
+                            <!-- Logout -->
+                            <Button Style="{StaticResource NavButton}"
+                                    Margin="10,4" Command="{Binding LogoutCommand}">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="🚪" FontSize="17" Margin="0,0,12,0"
+                                               VerticalAlignment="Center"/>
+                                    <TextBlock Text="Logout" VerticalAlignment="Center"
+                                               Foreground="#EF4444"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <!-- ── Content area + Daisy overlay ─────────────────────── -->
+                <Grid Grid.Column="1">
+                    <!-- Main content frame -->
+                    <Frame x:Name="MainFrame"
+                           NavigationUIVisibility="Hidden" Background="Transparent"/>
+
+                    <!-- Semi-transparent backdrop (behind Daisy panel) -->
+                    <Border x:Name="DaisyBackdrop"
+                            Background="#40000000"
+                            Visibility="Collapsed"
+                            Panel.ZIndex="99"
+                            MouseLeftButtonDown="DaisyBackdrop_Click"/>
+
+                    <!-- Daisy chat panel (slides in from right) -->
+                    <daisy:DaisyPanel x:Name="DaisyPanelCtrl"
+                                      HorizontalAlignment="Right"
+                                      VerticalAlignment="Stretch"
+                                      Panel.ZIndex="100"
+                                      Visibility="Collapsed"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

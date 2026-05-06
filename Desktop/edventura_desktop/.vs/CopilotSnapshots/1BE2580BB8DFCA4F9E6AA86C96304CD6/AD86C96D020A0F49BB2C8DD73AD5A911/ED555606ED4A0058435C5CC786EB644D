@@ -1,0 +1,39 @@
+﻿using System;
+using edventura_desktop.Models;
+
+namespace edventura_desktop.Services
+{
+    public class UserSession
+    {
+        private static readonly Lazy<UserSession> _instance = new Lazy<UserSession>(() => new UserSession());
+        public static UserSession Instance => _instance.Value;
+
+        public string? AccessToken { get; private set; }
+        public string? RefreshToken { get; private set; }
+        public UserProfile? CurrentUser { get; private set; }
+        public bool IsLoggedIn => !string.IsNullOrEmpty(AccessToken) && CurrentUser != null;
+
+        private UserSession() { }
+
+        public void Login(string accessToken, string refreshToken, UserProfile user)
+        {
+            AccessToken = accessToken;
+            RefreshToken = refreshToken;
+            CurrentUser = user;
+            ApiClient.SetTokens(accessToken, refreshToken);
+            OnLoginSuccess?.Invoke(this, EventArgs.Empty);
+        }
+
+        public void Logout()
+        {
+            AccessToken = null;
+            RefreshToken = null;
+            CurrentUser = null;
+            ApiClient.ClearTokens();
+            OnLogout?.Invoke(this, EventArgs.Empty);
+        }
+
+        public event EventHandler? OnLoginSuccess;
+        public event EventHandler? OnLogout;
+    }
+}

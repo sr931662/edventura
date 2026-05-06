@@ -1,0 +1,48 @@
+<Page x:Class="edventura_desktop.Views.Shell.StudentListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Student Management">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Toolbar -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="🔄 Refresh" Command="{Binding LoadStudentsCommand}" Padding="10,5"
+                    Background="#3B82F6" Foreground="White" BorderThickness="0" Cursor="Hand"/>
+            <Button Content="➕ Add" Command="{Binding AddStudentCommand}" Margin="10,0,0,0" Padding="10,5"
+                    Background="#10B981" Foreground="White" BorderThickness="0" Cursor="Hand"/>
+            <Button Content="✏ Edit" Command="{Binding EditStudentCommand}" Margin="10,0,0,0" Padding="10,5"
+                    Background="#F59E0B" Foreground="White" BorderThickness="0" Cursor="Hand"
+                    IsEnabled="{Binding SelectedStudent, Converter={StaticResource InvertBoolToVisibility}}"/>
+            <Button Content="🗑 Delete" Command="{Binding DeleteStudentCommand}" Margin="10,0,0,0" Padding="10,5"
+                    Background="#EF4444" Foreground="White" BorderThickness="0" Cursor="Hand"
+                    IsEnabled="{Binding SelectedStudent, Converter={StaticResource InvertBoolToVisibility}}"/>
+        </StackPanel>
+
+        <!-- Selected student info -->
+        <Border Grid.Row="1" Visibility="{Binding SelectedStudent, Converter={StaticResource BoolToVisibility}}"
+                Background="#F0F4FF" Padding="10" CornerRadius="8" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Selected: " FontWeight="Bold"/>
+                <TextBlock Text="{Binding SelectedStudent.full_name}"/>
+            </StackPanel>
+        </Border>
+
+        <!-- DataGrid -->
+        <DataGrid Grid.Row="2" ItemsSource="{Binding Students}" IsReadOnly="True" AutoGenerateColumns="False"
+                  SelectedItem="{Binding SelectedStudent}" SelectionMode="Single"
+                  Background="White" BorderBrush="#E2E8F0" BorderThickness="1" AlternatingRowBackground="#F8FAFC">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding full_name}" Width="*"/>
+                <DataGridTextColumn Header="Class" Binding="{Binding class_name}" Width="100"/>
+                <DataGridTextColumn Header="Section" Binding="{Binding section}" Width="80"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding email}" Width="180"/>
+                <DataGridTextColumn Header="Active" Binding="{Binding is_active}" Width="60"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -Filter \"*.csproj\")",
+      "Bash(Select-Object FullName)",
+      "PowerShell(dotnet restore \"d:\\\\EdVentura\\\\apps\\\\Desktop\\\\edventura_desktop\\\\edventura_desktop.csproj\")",
+      "PowerShell(dotnet build \"d:\\\\EdVentura\\\\apps\\\\Desktop\\\\edventura_desktop\\\\edventura_desktop.csproj\" 2>&1)",
+      "PowerShell(dotnet clean \"d:\\\\EdVentura\\\\apps\\\\Desktop\\\\edventura_desktop\\\\edventura_desktop.csproj\" 2>&1)"
+    ]
+  }
+}

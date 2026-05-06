@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\apps\\\\desktop\" -Recurse)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(ConvertTo-Json)",
+      "Bash(del \"d:\\\\EdVentura\\\\apps\\\\desktop\\\\AuthenticationDelegatingHandler.cs\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\apps\\\\desktop\" -Recurse -Directory -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(grep -v \"obj\\\\\\\\\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\apps\\\\desktop\\\\Models\" -Recurse -File)",
+      "Bash(Test-Path \"d:\\\\EdVentura\\\\apps\\\\desktop\\\\Models\\\\DashboardModels.cs\")"
+    ],
+    "additionalDirectories": [
+      "d:\\EdVentura\\apps\\desktop\\Models"
+    ]
+  }
+}

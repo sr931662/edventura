@@ -1,0 +1,18 @@
+.hero {
+  background: linear-gradient(135deg, #d4fcff, #f3e5f5);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+.gradientText {
+  background: linear-gradient(135deg, #06b6d4, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headline { font-size: 3rem; font-weight: 800; }
+.subhead { font-size: 1.2rem; color: #475569; margin: 1rem 0 2rem; }
+.cta { display: flex; gap: 1rem; justify-content: center; }
+.gradientBtn { /* same as login */ padding: 14px 32px; background: linear-gradient(); border-radius: 14px; color: white; }
+.outlineBtn { padding: 14px 32px; border: 2px solid #06b6d4; border-radius: 14px; color: #06b6d4; }
+.features { text-align: center; padding: 4rem 2rem; }
+.grid { display: flex; gap: 1.5rem; justify-content: center; margin-top: 2rem; }
+.card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }

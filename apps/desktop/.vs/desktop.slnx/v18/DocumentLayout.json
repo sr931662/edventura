@@ -1,0 +1,989 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EdVentura\\apps\\desktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\desktop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:desktop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shellwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shellwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\daisymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\daisymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\idaisyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\idaisyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\daisyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\daisyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\daisyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\daisyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\daisy\\daisypanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\daisy\\daisypanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\dialogs\\studentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\dialogs\\studentdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\daisy\\daisypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\daisy\\daisypanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shell\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shell\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\dashboardmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\dashboardmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shell\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shell\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\converters\\hextobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:converters\\hextobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\themeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\coder.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:coder.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shellwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shellwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shell\\studentlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shell\\studentlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\studentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\studentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\dialogs\\studentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\dialogs\\studentdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\requests\\studentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\requests\\studentupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\requests\\studentcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\requests\\studentcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\views\\shell\\studentlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:views\\shell\\studentlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\mfaverifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\mfaverifyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:viewmodels\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\mfasetupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\mfasetupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\tokenrefreshresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\tokenrefreshresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\tokenrefreshrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\tokenrefreshrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\helpers\\stringtologintextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:helpers\\stringtologintextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:converters\\stringtovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\converters\\invertbooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:converters\\invertbooltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\converters\\inverseboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:converters\\inverseboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:converters\\booltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\infrastructure\\tokenstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:infrastructure\\tokenstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\infrastructure\\authdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:infrastructure\\authdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\infrastructure\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:infrastructure\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|d:\\edventura\\apps\\desktop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F708FC2D-C45C-E989-C1D2-17BD76072439}|desktop.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T10:19:55.727Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "desktop",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\desktop.csproj",
+              "RelativeDocumentMoniker": "desktop.csproj",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\desktop.csproj",
+              "RelativeToolTip": "desktop.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-05T07:01:16.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DaisyModels.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\DaisyModels.cs",
+              "RelativeDocumentMoniker": "Models\\DaisyModels.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\DaisyModels.cs",
+              "RelativeToolTip": "Models\\DaisyModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:34:22.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDaisyService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IDaisyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDaisyService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IDaisyService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDaisyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:33:54.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DaisyService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\DaisyService.cs",
+              "RelativeDocumentMoniker": "Services\\DaisyService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\DaisyService.cs",
+              "RelativeToolTip": "Services\\DaisyService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:33:33.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DaisyViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\DaisyViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DaisyViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\DaisyViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DaisyViewModel.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:33:11.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DaisyPanel.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Daisy\\DaisyPanel.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Daisy\\DaisyPanel.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Daisy\\DaisyPanel.xaml.cs",
+              "RelativeToolTip": "Views\\Daisy\\DaisyPanel.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:31:09.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DaisyPanel.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Daisy\\DaisyPanel.xaml",
+              "RelativeDocumentMoniker": "Views\\Daisy\\DaisyPanel.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Daisy\\DaisyPanel.xaml",
+              "RelativeToolTip": "Views\\Daisy\\DaisyPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T09:29:40.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardModels.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\DashboardModels.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardModels.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\DashboardModels.cs",
+              "RelativeToolTip": "Models\\DashboardModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:41:10.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Shell\\DashboardPage.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\DashboardPage.xaml",
+              "RelativeToolTip": "Views\\Shell\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T17:50:14.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShellWindow.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\ShellWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ShellWindow.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\ShellWindow.xaml",
+              "RelativeToolTip": "Views\\ShellWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T17:41:17.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:07:47.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Shell\\DashboardPage.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "Views\\Shell\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:50:40.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:32:19.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\UserSession.cs",
+              "RelativeDocumentMoniker": "Services\\UserSession.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\UserSession.cs",
+              "RelativeToolTip": "Services\\UserSession.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:40:41.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\MenuService.cs",
+              "RelativeToolTip": "Services\\MenuService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:39:51.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:31:28.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDialog.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Dialogs\\StudentDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Dialogs\\StudentDialog.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Dialogs\\StudentDialog.xaml.cs",
+              "RelativeToolTip": "Views\\Dialogs\\StudentDialog.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:33:01.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:18:40.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Hextobrushconverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Converters\\Hextobrushconverter.cs",
+              "RelativeDocumentMoniker": "Converters\\Hextobrushconverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Converters\\Hextobrushconverter.cs",
+              "RelativeToolTip": "Converters\\Hextobrushconverter.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:40:38.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "Views\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T10:32:00.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAAAPIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:39:21.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T10:22:50.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThemeService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\ThemeService.cs",
+              "RelativeDocumentMoniker": "Services\\ThemeService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\ThemeService.cs",
+              "RelativeToolTip": "Services\\ThemeService.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T07:37:19.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "coder.py",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\coder.py",
+              "RelativeDocumentMoniker": "coder.py",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\coder.py",
+              "RelativeToolTip": "coder.py",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVDhPrZMhjoRAEEU/G2QLJAJBJwgkFyAZNJpTYFBjCIKgJgiOgOQICA6ABNckiDYIJAkHqDW7G3rZySTM/uSLrup6XVVJa1w8CBcl3TvwBbhkLh70cSTatg3btqHr\u002BjEMwzDAGFNi31IAQgjUdQ0pJeI4BmMMbdtiGAbM84yqqo7Xgd\u002BAdV0RBAGiKEKSJEjTFOu6gnMOzjlM04TneccSdQf7vlNd1ySEoKIoqOs6CsPwNPvTHWzbhjzP4fs\u002BsizDOI643W4AAF3XUZYlHMc5lqgdSCmVFxhjNAwD9X1PQghqmubUgQKwLOvUJgByXffP3GmEZVmOxx9N0/Q0pwCu6H8BRHTyKykATdNOfqW3R9De\u002Bc4A8AnhJaveChMRqwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-05-04T07:01:40.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\DashboardService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Services\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:38:52.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:38:11.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StudentListPage.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\StudentListPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Shell\\StudentListPage.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\StudentListPage.xaml",
+              "RelativeToolTip": "Views\\Shell\\StudentListPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T19:56:08.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShellWindow.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\ShellWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ShellWindow.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\ShellWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ShellWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:41:38.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StudentDialog.xaml",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Dialogs\\StudentDialog.xaml",
+              "RelativeDocumentMoniker": "Views\\Dialogs\\StudentDialog.xaml",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Dialogs\\StudentDialog.xaml",
+              "RelativeToolTip": "Views\\Dialogs\\StudentDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-04T04:32:43.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StudentUpdateRequest.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\Requests\\StudentUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\StudentUpdateRequest.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\Requests\\StudentUpdateRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\StudentUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:29:46.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StudentCreateRequest.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\Requests\\StudentCreateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Requests\\StudentCreateRequest.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\Requests\\StudentCreateRequest.cs",
+              "RelativeToolTip": "Models\\Requests\\StudentCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:29:21.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:20:19.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StudentListViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\StudentListViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudentListViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\StudentListViewModel.cs",
+              "RelativeToolTip": "ViewModels\\StudentListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:44:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StudentListPage.xaml.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\StudentListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Shell\\StudentListPage.xaml.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Views\\Shell\\StudentListPage.xaml.cs",
+              "RelativeToolTip": "Views\\Shell\\StudentListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:56:17.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Models\\LoginResponse.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:04:32.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\ApiClient.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\ApiClient.cs",
+              "RelativeToolTip": "Services\\ApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:06:33.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:17:11.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TokenRefreshRequest.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\TokenRefreshRequest.cs",
+              "RelativeDocumentMoniker": "Models\\TokenRefreshRequest.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\TokenRefreshRequest.cs",
+              "RelativeToolTip": "Models\\TokenRefreshRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:04:54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TokenRefreshResponse.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\TokenRefreshResponse.cs",
+              "RelativeDocumentMoniker": "Models\\TokenRefreshResponse.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\TokenRefreshResponse.cs",
+              "RelativeToolTip": "Models\\TokenRefreshResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:05:23.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:16:54.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MfaSetupResponse.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\MfaSetupResponse.cs",
+              "RelativeDocumentMoniker": "Models\\MfaSetupResponse.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\MfaSetupResponse.cs",
+              "RelativeToolTip": "Models\\MfaSetupResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:05:37.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MfaVerifyRequest.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\MfaVerifyRequest.cs",
+              "RelativeDocumentMoniker": "Models\\MfaVerifyRequest.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\MfaVerifyRequest.cs",
+              "RelativeToolTip": "Models\\MfaVerifyRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T20:05:51.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ShellViewModel.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\ViewModels\\ShellViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ShellViewModel.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\ViewModels\\ShellViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ShellViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:41:09.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:16:28.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:16:08.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\INavigationService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\INavigationService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\INavigationService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\INavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:37:23.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Services\\NavigationService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\NavigationService.cs",
+              "RelativeToolTip": "Services\\NavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:37:55.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMenuService.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:39:28.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:18:18.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StringToLoginTextConverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Helpers\\StringToLoginTextConverter.cs",
+              "RelativeDocumentMoniker": "Helpers\\StringToLoginTextConverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Helpers\\StringToLoginTextConverter.cs",
+              "RelativeToolTip": "Helpers\\StringToLoginTextConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:49:54.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "InvertBoolToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Converters\\InvertBoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\InvertBoolToVisibilityConverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Converters\\InvertBoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\InvertBoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:30:53.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "InverseBoolConverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Converters\\InverseBoolConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\InverseBoolConverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Converters\\InverseBoolConverter.cs",
+              "RelativeToolTip": "Converters\\InverseBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:22:32.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BoolToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToVisibilityConverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Converters\\BoolToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:30:34.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StringToVisibilityConverter.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\StringToVisibilityConverter.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Converters\\StringToVisibilityConverter.cs",
+              "RelativeToolTip": "Converters\\StringToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:24:08.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfile.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Models\\UserProfile.cs",
+              "RelativeToolTip": "Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T17:40:16.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "desktop.csproj",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\desktop.csproj",
+              "RelativeDocumentMoniker": "desktop.csproj",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\desktop.csproj",
+              "RelativeToolTip": "desktop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-03T10:49:20.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TokenStorage.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\TokenStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\TokenStorage.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\TokenStorage.cs",
+              "RelativeToolTip": "Infrastructure\\TokenStorage.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:14:16.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuthDelegatingHandler.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\AuthDelegatingHandler.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AuthDelegatingHandler.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\AuthDelegatingHandler.cs",
+              "RelativeToolTip": "Infrastructure\\AuthDelegatingHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:15:29.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\UserContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UserContext.cs",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\Infrastructure\\UserContext.cs",
+              "RelativeToolTip": "Infrastructure\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T10:14:37.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\EdVentura\\apps\\desktop\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\EdVentura\\apps\\desktop\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T10:08:23.935Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

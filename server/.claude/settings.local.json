@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\server\" -Recurse)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Out-String)",
+      "Bash(dir /s \"d:\\\\EdVentura\\\\server\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\server\\\\app\\\\modules\\\\attendance\" -File -Recurse)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\server\" -Directory)",
+      "Bash(Select-Object Name)",
+      "PowerShell(\"\")",
+      "PowerShell(\"---\")",
+      "Bash(xargs -I {} basename {})",
+      "Bash(findstr attendance *)",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\server\\\\app\\\\modules\\\\\" -Directory | Select-Object Name)",
+      "Bash(Get-ChildItem -Path \"d:\\\\EdVentura\\\\server\\\\app\\\\modules\\\\communication\\\\\" -Recurse -Force | Select-Object FullName)",
+      "PowerShell(if \\($?\\) { \"Path exists\" } else { \"Path does not exist\" })",
+      "Bash(.venv\\\\Scripts\\\\pip install *)"
+    ]
+  }
+}
